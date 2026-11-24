@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font-family;
+  line-height: 1.5;
+  color: $color-text;
+  background: $color-background;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: $color-primary;
+}
+
+:focus-visible {
+  outline: 3px solid $color-primary;
+  outline-offset: 2px;
+}
+
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
